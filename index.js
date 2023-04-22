@@ -1,7 +1,7 @@
 
 let container = document.querySelector('.diapo');
-let image  = container.querySelector('img')
-
+let image  = container.querySelector('a')
+console.log(image)
 // Creación de una instancia de Hammer en el contenedor
 const hammer = new Hammer(container);
 console.log(hammer)
